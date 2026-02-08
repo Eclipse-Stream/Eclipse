@@ -1,0 +1,40 @@
+# Dependencies
+app/node_modules/
+
+# Build outputs
+app/dist/
+app/out/
+app/.vite/
+
+# Test & coverage
+app/coverage/
+
+# Environment
+app/.env
+app/.env.local
+app/.env.test
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temp files
+*.tmp
+temp_*.csv
+nul
+
+# Sunshine runtime config (generated at runtime, not source)
+app/resources/tools/Sunshine/config/sunshine.conf
+app/resources/tools/Sunshine/config/apps.json
+app/resources/tools/Sunshine/config/*.backup.*
+app/resources/tools/VDD/vdd_settings.xml
+app/resources/tools/multimonitortool/MultiMonitorTool.cfg

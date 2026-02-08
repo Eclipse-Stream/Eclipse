@@ -1,0 +1,45 @@
+{
+  "$schema": "https://raw.githubusercontent.com/electron-userland/electron-builder/master/packages/app-builder-lib/scheme.json",
+  "appId": "com.eclipse.app",
+  "productName": "Eclipse",
+  "directories": {
+    "output": "dist",
+    "buildResources": "build-resources"
+  },
+  "files": [
+    ".vite/build/**/*",
+    ".vite/renderer/**/*",
+    "package.json"
+  ],
+  "extraResources": [
+    {
+      "from": "resources",
+      "to": "resources",
+      "filter": ["**/*"]
+    }
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      }
+    ],
+    "icon": "build-resources/icon.ico",
+    "requestedExecutionLevel": "requireAdministrator"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "perMachine": true,
+    "allowElevation": true,
+    "installerIcon": "build-resources/icon.ico",
+    "uninstallerIcon": "build-resources/icon.ico",
+    "installerHeaderIcon": "build-resources/icon.ico",
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "Eclipse",
+    "menuCategory": false,
+    "include": "build-resources/installer.nsh"
+  }
+}
