@@ -1,7 +1,7 @@
 {
   "name": "eclipse",
   "productName": "Eclipse",
-  "version": "1.0.0",
+  "version": "0.1.0-beta",
   "description": "Eclipse - Virtual Display Manager for Moonlight Streaming",
   "main": ".vite/build/main.js",
   "scripts": {
