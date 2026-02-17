@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://github.com/Eclipse-Stream/Eclipse/releases">Download</a> &bull;
-  <a href="https://discord.gg/RTAQlQzm">Discord</a> &bull;
+  <a href="https://discord.com/invite/Zx7aJFcEEf">Discord</a> &bull;
   <a href="#features">Features</a> &bull;
   <a href="#installation">Installation</a>
 </p>
